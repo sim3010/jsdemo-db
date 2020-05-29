@@ -8,11 +8,18 @@ select * from Customer;
 insert into CUSTOMER VALUES("jagjeet","12345",9837050954,"IISC","bangalore","jagjeet@gmail.com");
 insert into CUSTOMER VALUES("simran","sim1234",9643041712,"NITK surathkal","mangalore","simran@gmail.com");
 insert into Customer values("sarabjeet","sarab1",7895726705,"12 street","hyderabad","sarabjeet@gmail.com");
+
 select * from restaurant;
 insert into restaurant values("fast food","g.dot",12345,true,4.5,"mangalore");
 insert into restaurant values("north indian","bollywood cafe",3456,true,4.0,"mangalore");
 insert into restaurant values("chinese","bombay brazier",278641,false,4.6,"bangalore");
 insert into restaurant values("north indian","kalash",4567,true,3.4,"surathkal");
+
+insert into restaurant values("sea food","machali",12346,true,4.5,"mangalore");
+insert into restaurant values("indian","sagar ratna",12347,true,4.2,"mangalore");
+insert into restaurant values("fast food","diesel cafe",12348,true,3.9,"mangalore");
+insert into restaurant values("indian","barbeque nation",12349,true,4.7,"mangalore");
+insert into restaurant values("grill","kobe sizzlers",12350,true,4.1,"mangalore");
 
 select * from circle;
 insert into circle values(9837050954,9643041712);
@@ -35,6 +42,11 @@ insert into dish values("chicken masala",false,"main course");
 insert into dish values("orange juice",true,"beverages");
 
 select * from serves;
+insert into serves values(12345,"chilly paneer",310,true);
+insert into serves values(12345,"egg roll",130,false);
+insert into serves values(12345,"chicken masala",370,true);
+insert into serves values(12345,"orange juice",70,true);
+
 insert into serves values(12345,"white sauce pasta",290,true);
 insert into serves values(12345,"lime soda",180,true);
 insert into serves values(278641,"white sauce pasta",390,true);
@@ -66,4 +78,3 @@ insert into ingredients values('lime soda','soda');
 insert into ingredients values('white sauce pasta','pasta');
 insert into ingredients values('white sauce pasta','milk');
 insert into ingredients values('white sauce pasta','onion');
-
